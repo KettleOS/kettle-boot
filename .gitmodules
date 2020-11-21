@@ -1,0 +1,3 @@
+[submodule "kettle-boot-api"]
+	path = kettle-boot-api
+	url = https://github.com/kettleos/kettle-boot-api
