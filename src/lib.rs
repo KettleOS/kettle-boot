@@ -1,6 +1,7 @@
 #![no_std]
-#![feature(alloc)]
 #![feature(const_fn)]
+
+mod panic;
 
 use kettle_boot_api::vga::*;
 
@@ -8,4 +9,5 @@ use kettle_boot_api::vga::*;
 pub extern "C" fn efi_main() -> ! {
 	// test
 	write_char(b'a', VgaColor::White);
+	loop {}
 }
