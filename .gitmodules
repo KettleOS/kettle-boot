@@ -2,3 +2,6 @@
 	path = kettle-boot-api
 	url = https://github.com/KettleOS/kettle-boot-api
 	branch = master
+[submodule "kettle-kernel"]
+	path = kettle-kernel
+	url = https://github.com/KettleOS/kettle-kernel

@@ -8,12 +8,5 @@ edition = "2018"
 
 [dependencies]
 kettle-boot-api = { path = "kettle-boot-api" }
-
-[profile.dev]
-panic = "abort"
-
-[profile.release]
-panic = "abort"
-
-[package.metadata.bootimage]
-build-command = ["build"]
+uefi = "0.8.0"
+rlibc = "1.0.0"
