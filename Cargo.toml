@@ -9,11 +9,11 @@ edition = "2018"
 [dependencies]
 kettle-boot-api = { path = "kettle-boot-api" }
 
-[lib]
-crate-type = ["staticlib"]
-
 [profile.dev]
 panic = "abort"
 
 [profile.release]
 panic = "abort"
+
+[package.metadata.bootimage]
+build-command = ["build"]

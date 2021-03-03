@@ -1,8 +1,6 @@
 #![no_std]
 #![feature(const_fn)]
 
-mod panic;
-
 use kettle_boot_api::vga::*;
 
 #[no_mangle]
